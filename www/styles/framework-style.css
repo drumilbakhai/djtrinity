@@ -416,7 +416,7 @@ h3 > a						{	color:#2c3e50; 		font-family: 'Lato', sans-serif;		}
 h4 > a						{	color:#2c3e50;		font-family: 'Lato', sans-serif;		}
 h5 > a						{	color:#2c3e50; 		font-family: 'Lato', sans-serif;		}
 h6 > a						{	color:#2c3e50; 		font-family: 'Lato', sans-serif;		}
-h1, h2, h3, h4, h5, h6		{	color:#2c3e50;		font-family: 'Lato', sans-serif;		}
+h1, h2, h3, h4, h5, h6		{	color:#FFFFFF;		font-family: 'Lato', sans-serif;		}
 span						{	color:#7f8c8d;		font-family: 'Dosis', sans-serif;	}
 body						{	color:#7f8c8d;		font-family: 'Dosis', sans-serif;	}
 input						{						font-family: 'Dosis', sans-serif;}
@@ -475,7 +475,7 @@ blockquote					{	color:#7f8c8d!important;}
 .hide-toggle-v5{		background-image:url(../images/ui/plus.png);					}
 
 .toggle-v5 a{			color:#999999!important; font-family:'Open Sans', sans-serif!important; font-weight:400!important; font-size:14px; text-transform:uppercase;	}
-.toggle-container-v5{	color:#9a9a9a!important; background-color:#f1f1f1;	}
+.toggle-container-v5{	color:#9a9a9a; background-color:#f1f1f1;	}
 
 /*/////////////////////////////////////////////////////////////////////////////////////*/		
 /*-----------------------------Toggle Style 4------------------------------------------*/
@@ -483,8 +483,8 @@ blockquote					{	color:#7f8c8d!important;}
 .show-toggle-v4{		background-image:url(../images/lists/delete_16.png);			}
 .hide-toggle-v4{		background-image:url(../images/lists/plus_16.png);				}
 
-.toggle-v4 a{			color:#999999!important; font-family:'Open Sans', sans-serif!important; font-weight:400!important;	font-size:14px; text-transform:uppercase;	}
-.toggle-container-v4{	color:#9a9a9a!important; background-color:#f1f1f1;	}
+.toggle-v4 a{			color:#FFFFFF!important; font-family:'Open Sans', sans-serif!important; font-weight:400!important;	font-size:14px; text-transform:uppercase;	}
+.toggle-container-v4{	color:#FFFFFF; background-color:#7e2f2f;	}
 
 /*/////////////////////////////////////////////////////////////////////////////////////*/		
 /*-----------------------------Toggle Style 3------------------------------------------*/
