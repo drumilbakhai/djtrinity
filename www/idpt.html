@@ -20,11 +20,19 @@
   <!--Page Scripts Load -->
 
   <script src="scripts/jquery.min.js"		 type="text/javascript"></script>	
-  <script src="scripts/snap.js"			 type="text/javascript"></script>
-  <script src="scripts/hammer.js"			 type="text/javascript"></script>	
-  <script src="scripts/custom.js"			 type="text/javascript"></script>
-  <script src="scripts/framework.js"		 type="text/javascript"></script>
+<script src="scripts/snap.js"			 type="text/javascript"></script>
+<script src="scripts/hammer.js"			 type="text/javascript"></script>	
+<script src="scripts/jquery-ui-min.js"   type="text/javascript"></script>
+<script src="scripts/subscribe.js"		 type="text/javascript"></script>
+<script src="scripts/contact.js"		 type="text/javascript"></script>
+<script src="scripts/jquery.swipebox.js" type="text/javascript"></script>
+<script src="scripts/bxslider.js"		 type="text/javascript"></script>
+<script src="scripts/colorbox.js"		 type="text/javascript"></script>
+<script src="scripts/retina.js"			 type="text/javascript"></script>
+<script src="scripts/custom.js"			 type="text/javascript"></script>
+<script src="scripts/framework.js"		 type="text/javascript"></script>
   <script src="dyn/newidpt.js"       type="text/javascript"></script>
+  
 </head>
 <body>
 
@@ -77,19 +85,45 @@
   
   <div class="decoration"></div>
 
+  
+
   <div class="container">
+        
+            <ul id="tab" class="tab">
+                <li class="active"><a class="tab-but" href="#one">IDPT SCORECARD</a></li>
+                <li><a class="tab-but" href="#two">IDPT POINTS TABLE</a></li>
+                
+            </ul>
 
-    <center>
+            <div id="one" class="tab-content">
+        	          <center>
+      		      		<div id="som"></div>
+                	  </center>
+  
+  						<script>
+  						 document.getElementById("som").innerHTML = dat; 
+ 						</script>
+            </div>
 
-      <div id="som"></div>
-      
-      
-    </center>
-  </div>
-  <script>
-   document.getElementById("som").innerHTML = dat; 
- </script>
- 
+            <div id="two" class="tab-content">
+                			        	          <center>
+      		      		<div id="som"></div>
+                	  </center>
+  
+  						<script>
+  						 document.getElementById("som").innerHTML = dat; 
+ 						</script>
+                  	
+            </div>
+        
+           
+            <div class="clear"></div>
+        
+
+
+  
+ </div>
+
 <br>
 <br>
 <br>
@@ -103,7 +137,8 @@
   <a href="#" onclick="window.open('https://twitter.com/djscetrinity','_system','location=yes');" class="footer-twitter"></a>
   <a href="#" class="footer-up go-up"></a>
   <em>DJSCE TRINITY. All rights reserved</em>
-</div>      
+</div>    
+  
 </div> 
 </div>
 
